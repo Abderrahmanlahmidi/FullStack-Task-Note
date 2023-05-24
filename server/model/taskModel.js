@@ -1,18 +1,19 @@
 import mongoose from "mongoose";
 
 const taskSchema = mongoose.Schema({
-  title:{
+  Title:{
 
-      type:String,
-      require:true
+    type:String,
+    require:true
 
   },
-  task:{
+  Note:{
 
     type:String,
     require:true 
 
-  }
+  },
+
 
 });
 

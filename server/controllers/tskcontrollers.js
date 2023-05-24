@@ -26,8 +26,8 @@ const gettsk = (req, res) => {
 
 //POST data from the db
 const posttsk = async (req, res) => {
-    const {title, task} = req.body;
-    const newTask = new taskModel({title,task})
+    const {Title, Note} = req.body;
+    const newTask = new taskModel({Title,Note})
  
     await newTask.save()
     .then(savedTask => {

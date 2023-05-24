@@ -13,9 +13,9 @@ export default {
     colorfont1:"#5a5a5a",
     colorfont2:"#a0a0a0",
     background:"#f5f5f5",
-    redtask:"#fe6a6b",
-    bluetask:"#69d7e6",
-    yellowtask:"#fbd33d",
+    rednote:"#fe6a6b",
+    bluenote:"#69d7e6",
+    yellownote:"#fbd33d",
 
    }
   },
